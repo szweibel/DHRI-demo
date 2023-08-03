@@ -8,8 +8,7 @@ import { useState, useEffect } from "react";
 import CssBaseline from '@mui/material/CssBaseline';
 import dynamic from 'next/dynamic';
 import Image from 'next/image'
-import logo from '../public/images/logos/logo.png';
-// import logo from '../public/images/logos/logo.png';
+import logo from '../public/images/logos/logo.png'
 import ButtonAppBarCollapse from "./ButtonAppBarCollapse";
 import { useTheme } from 'next-themes';
 import IconButton from '@mui/material/IconButton';
