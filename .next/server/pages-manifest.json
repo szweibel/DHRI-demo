@@ -1,15 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html",
-  "/500": "pages/500.html",
-  "/Codetest": "pages/Codetest.html",
-  "/authors/[slug]": "pages/authors/[slug].js",
-  "/guides/[slug]": "pages/guides/[slug].js",
-  "/Glossary": "pages/Glossary.js",
-  "/": "pages/index.js",
-  "/workshops/all": "pages/workshops/all.js",
-  "/insights/[slug]": "pages/insights/[slug].js",
-  "/workshops/[slug]": "pages/workshops/[slug].js"
-}
+{}

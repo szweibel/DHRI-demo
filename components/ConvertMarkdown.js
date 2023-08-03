@@ -57,7 +57,10 @@ const Code = ({ className, children }) => {
 }
 
 const Imager = ({ className, ...props }) => {
-    const newProps = { ...props };
+    let newProps = { ...props };
+    if (process.env.NEXT_PUBLIC_GITHUB_ACTIONS === "true") {
+        newProps.src = '/' + process.env.NEXT_PUBLIC_REPO_NAME + newProps.src;
+    }
     const imageSource = newProps.src
     return (
         <div className="image-container">
