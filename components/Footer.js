@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import path from 'path'
 import Image from 'next/image'
-import neh from '../public/images/logos/neh.jpg';
+import neh from '../public/images/logos/neh.png';
 import gcdi from '../public/images/logos/gcdi.png';
 import gc from '../public/images/logos/gc_logo.png';
 
